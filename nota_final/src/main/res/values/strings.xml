@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Nota_Final</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo">Nota Final del Curso Programación de Aplicaciones Moviles</string>
+    <string name="quices">Quices:</string>
+    <string name="exposiciones">Exposiciones:</string>
+    <string name="laboratorio">Laboratorio:</string>
+    <string name="proyecto">Proyecto Final:</string>
+    <string name="digite">Digite Nota</string>
+    <string name="button">Calcular</string>
+    <string name="notafinal">Nota Final:</string>
+    <string name="campos_vacios">Falta Una o Varias Notas</string>
+</resources>

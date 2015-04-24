@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:text="@string/titulo"
+            android:textSize="30dp"
+           android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quices"
+            android:textSize="30dp"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/digite"
+            android:inputType="numberDecimal"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:id="@+id/eQuices"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exposiciones"
+            android:textSize="30dp"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/digite"
+            android:inputType="numberDecimal"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:id="@+id/eExpo"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/laboratorio"
+            android:textSize="30dp"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/digite"
+            android:inputType="numberDecimal"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:id="@+id/eLab"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/proyecto"
+            android:textSize="30dp"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/digite"
+            android:inputType="numberDecimal"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:id="@+id/eProyec"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:id="@+id/boton"
+            />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/notafinal"
+            android:textSize="30dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:id="@+id/tNotaFinal"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

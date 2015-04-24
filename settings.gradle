@@ -1,0 +1,1 @@
+include ':app', ':operaciones', ':nota_final', ':areas', ':formulario_registro'
