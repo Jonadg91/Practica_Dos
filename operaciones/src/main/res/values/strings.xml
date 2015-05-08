@@ -11,4 +11,6 @@
     <string name="division">/</string>
     <string name="calcular">Calcular</string>
     <string name="resultado">Resultado</string>
+    <string name="campos_vacios">Hay uno o varios campos vacios</string>
+    <string name="sin_operacion">Seleccione una Operación</string>
 </resources>

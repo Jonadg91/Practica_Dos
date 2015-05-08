@@ -1,1 +1,1 @@
-include ':app', ':operaciones', ':nota_final', ':areas', ':formulario_registro'
+include ':app', ':operaciones', ':nota_final', ':areas', ':formulario_registro', ':areas'

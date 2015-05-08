@@ -13,7 +13,7 @@ import android.widget.RadioButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import java.util.Calendar;
+
 
 
 public class MainActivity extends ActionBarActivity {
@@ -59,7 +59,7 @@ public class MainActivity extends ActionBarActivity {
 
                 int year = date.getYear();//solo con esot basta para obteer la fecha
                 int month = date.getMonth();
-                int day = date.getDayOfMonth();
+               int day = date.getDayOfMonth();
 
                 if(rFemenino.isChecked())
                     tGenero.setText("Femenino");

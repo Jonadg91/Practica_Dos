@@ -65,11 +65,11 @@ public class MainActivity extends ActionBarActivity {
                     Area=String.valueOf(r*r*3.1416);
                 }
                 else if(!rCuadro.isChecked() && !rTriangulo.isChecked()&& !rRectangulo.isChecked() && !rCirculo.isChecked()){
-                    Figura = "No Ha Seleccionado Figura";
+                    Figura = getResources().getString(R.string.nohayfigura);
                     Area="";
                 }
                 else{
-                    Figura = "Campos Vacios de la Figura Seleccionada";
+                    Figura = getResources().getString(R.string.campos_vacios);
                     Area="";
                 }
 

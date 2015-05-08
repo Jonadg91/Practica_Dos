@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Areas</string>
-
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="base">Base:</string>
@@ -11,4 +10,6 @@
     <string name="button">Area</string>
     <string name="figura">Figura</string>
     <string name="area">Area</string>
+    <string name="nohayfigura">Seleccione una Figura</string>
+    <string name="campos_vacios">Campos vacios de la figura seleccionada</string>
 </resources>

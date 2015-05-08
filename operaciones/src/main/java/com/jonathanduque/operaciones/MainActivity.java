@@ -37,7 +37,7 @@ public class MainActivity extends ActionBarActivity {
                 String Resu="0";
 
                 if (valor1.matches("") ||  valor2.matches("") ){
-                    Resu="Hay uno o varios campos vacios";
+                    Resu=getResources().getString(R.string.campos_vacios);//para poner avisos solo referenciando el string, sin importar idioma
                 }
                 else {
                     float Num1=Float.parseFloat(valor1);
@@ -56,7 +56,7 @@ public class MainActivity extends ActionBarActivity {
                         Resu=String.valueOf(Num1*Num2);
                     }
                     else
-                        Resu="Selecciones una Operacion";
+                        Resu=getResources().getString(R.string.sin_operacion);
                 }
                 tResultado.setText(Resu);
             }
